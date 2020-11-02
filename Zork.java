@@ -4,9 +4,9 @@ public class Zork {
 
 public class MazeGame {
     Maze CreateMaze();
-    final Maze* createMaze() { return new Maze; }
-    final Room* MakeRoom(int n) { return new Room(n); }
-    final Wall* MakeWall()
+    final Maze createMaze() { return new Maze; }
+    final Room MakeRoom(int n) { return new Room(n); }
+    final Wall MakeWall()
 }
 public class MazeBuilder {
     void BuildMaze() { }
